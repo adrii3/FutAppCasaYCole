@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.InicioFragment"
+    android:orientation="vertical"
+    android:background="@color/blue_A700">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/boton_redondo"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/pelota_futbol" />
+
+                <View
+                    android:layout_width="50dp"
+                    android:layout_height="0dp" />
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:text="FutApp"
+                    android:textColor="@color/blue_A700"
+                    android:textSize="30dp"
+                    android:textStyle="italic" />
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/pelota_futbol" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="10dp" />
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:background="@drawable/trophy" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="10dp" />
+
+            <Button
+                android:id="@+id/boton_inicio_clasificacion"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/boton_redondo"
+                android:text="Clasificacion"
+                android:textAlignment="center"
+                android:textColor="@color/blue_A700"
+                android:textSize="20dp"
+                android:textStyle="italic" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="10dp" />
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:background="@drawable/trophy" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="10dp" />
+
+            <Button
+                android:id="@+id/boton_inicio_jornadas"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/boton_redondo"
+                android:text="Jornadas"
+                android:textAlignment="center"
+                android:textColor="@color/blue_A700"
+                android:textSize="20dp"
+                android:textStyle="italic" />
+            <View
+                android:layout_width="0dp"
+                android:layout_height="10dp" />
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:background="@drawable/trophy" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="10dp" />
+
+            <Button
+                android:id="@+id/boton_inicio_ayuda"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/boton_redondo"
+                android:text="Ayuda"
+                android:textAlignment="center"
+                android:textColor="@color/blue_A700"
+                android:textSize="20dp"
+                android:textStyle="italic" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>
