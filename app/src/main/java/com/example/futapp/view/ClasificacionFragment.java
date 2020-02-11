@@ -46,7 +46,14 @@ public class ClasificacionFragment extends Fragment {
         botonMadrid.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
-                //Navigation.findNavController(view).navigate(R.id.);
+                Navigation.findNavController(view).navigate(R.id.equipoFragment);
+            }
+        });
+
+        botonBarcelona.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Navigation.findNavController(view).navigate(R.id.equipoFragment);
             }
         });
 

@@ -39,4 +39,14 @@
         android:name="com.example.futapp.view.InicioFragment"
         android:label="fragment_inicio"
         tools:layout="@layout/fragment_inicio" />
+    <fragment
+        android:id="@+id/equipoFragment"
+        android:name="com.example.futapp.view.EquipoFragment"
+        android:label="fragment_equipo"
+        tools:layout="@layout/fragment_equipo" />
+    <fragment
+        android:id="@+id/jornadasFragment"
+        android:name="com.example.futapp.view.JornadasFragment"
+        android:label="fragment_jornadas"
+        tools:layout="@layout/fragment_jornadas" />
 </navigation>
