@@ -23,6 +23,7 @@ public class InicioFragment extends Fragment {
 
     Button botonClasificacion;
     Button botonJornadas;
+    Button botonAyuda;
 
 
     public InicioFragment() {
@@ -56,6 +57,14 @@ public class InicioFragment extends Fragment {
             @Override
             public void onClick(View v) {
                 Navigation.findNavController(view).navigate(R.id.jornadasFragment);
+            }
+        });
+
+        botonAyuda = view.findViewById(R.id.boton_inicio_ayuda);
+        botonAyuda.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Navigation.findNavController(view).navigate(R.id.ayudaFragment);
             }
         });
 

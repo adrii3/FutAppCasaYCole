@@ -49,4 +49,9 @@
         android:name="com.example.futapp.view.JornadasFragment"
         android:label="fragment_jornadas"
         tools:layout="@layout/fragment_jornadas" />
+    <fragment
+        android:id="@+id/ayudaFragment"
+        android:name="com.example.futapp.AyudaFragment"
+        android:label="fragment_ayuda"
+        tools:layout="@layout/fragment_ayuda" />
 </navigation>
